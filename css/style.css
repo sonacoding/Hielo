@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*  Header */
+
+.header-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/slide01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.nav h4{
+    float: left;
+    margin-left: 30px;
+}
+
+.nav h5{
+    float: right;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.nav .light-text{
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.nav span{
+    padding-right: 10px;
+}
+
+/* naviation ends */
+
+
+/* Banner Starts */
+
+.banner-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.banner-text hr{
+    width: 45%;
+}
+
+.banner-text p{
+    letter-spacing: 5px;
+}
+
+.banner-text h1{
+    font-weight: 300px;
+    font-size: 100px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    letter-spacing: 2px;
+}
+
+/* Banner Ends */
+
+/* Two Section Start */
+
+.full-wrapper{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #dfdfdf;
+}
+
+.full-wrapper .fixed-width{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.two-section .fixed-width .left{
+    float: left;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.two-section .fixed-width .right{
+    float: right;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.two-section img{
+    width: 100%;
+}
+
+.two-section h6{
+    letter-spacing: 3px;
+    color: gray;
+    margin-bottom: 9px;
+    font-size: 12px;
+}
+
+.two-section hr{
+    width: 40%;
+    margin: 0 auto;
+    color: green;
+    height: 0.5px;
+}
+
+.two-section h3{
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.align-left{
+    text-align: left;
+    padding: 0 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+.two-section button{
+    width: 150px;
+    height: 40px;
+    background: none;
+    margin-top: 30px;
+    border: 2px solid #dfdfdf;
+}
+
+/* Two SEction End */
+
+
+/* Quote Start */
+
+.full-quote{
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.full-quote p{
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+
+.full-quote hr{
+    width: 30%;
+}
+
+.full-quote h5{
+    font-size: 35px;
+    margin: 25px 0;
+}
+
+/* Quote End */
+
+/* four-images start*/
+
+.four-images p{
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+
+.four-images hr{
+    width: 30%;
+}
+
+.four-images h5{
+    font-size: 35px;
+    margin: 25px 0;
+} 
+
+.four-images img{
+    width: 45%;
+    float: left;
+    margin-bottom: 5%;
+    border: 10px solid #fff;
+}
+.four-images .left{
+    margin-left: 5%;
+}
+
+/* four-images end */
+
+
+/* footer Starts here */
+
+.footer-full{
+    background-color: #000;
+    color: gray;
+}
+
+.footer{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer .fa{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.footer p{
+    font-size: 20px;
+}
+
+/* footer ends here */
+
+/* Media Query Starts */
+
+@media only screen and (max-width:900px){
+    .banner-text h1{
+        font-size: 50px;
+    }
+
+    .two-section .fixed-width .left{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .two-section .fixed-width .right{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .four-images img{
+        width: 100%;
+        clear: both;
+        border: none;
+    }
+
+    .four-images .left{
+        margin-left: 0;
+    }
+
+    .footer p{
+        font-size: 11px;
+    }
+
+}
+
+
+@media only screen and (max-width:600px){
+    .full-quote p, .four-images p{
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+
+    .full-quote hr, .four-images hr{
+        width: 50%;
+    }
+
+    .full-quote h5, .four-images h5{
+        font-size: 18px;
+    }
+
+    .footer p{
+        font-size: 9px;
+    }
+}
+
+/* Media Query Ends */
+
